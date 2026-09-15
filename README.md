@@ -1,41 +1,16 @@
-# Tarefas Domésticas — Interface Flutter
+# Tarefas Domésticas
 
 Projeto individual desenvolvido para a atividade **Interface Flutter** da FATEC Rubens Lara.
 
 ## Tema
-
-Aplicativo simples para organização de tarefas domésticas do dia.
+Interface simples para organização das tarefas domésticas do dia.
 
 ## Funcionalidades
-
-- Exibe um resumo das tarefas do dia.
-- Lista tarefas domésticas.
-- Permite marcar tarefas como concluídas.
-- Mostra o percentual de tarefas concluídas.
-- Permite adicionar uma nova tarefa pelo botão **Adicionar tarefa**.
-
-## Requisitos da atividade atendidos
-
-- `MaterialApp`
-- `Scaffold`
-- `AppBar`
-- `Row`
-- `Column`
-- Diferentes widgets `Text` com estilização
-- `ElevatedButton`
-- `MainAxisAlignment`
-- `CrossAxisAlignment`
-- `ListView`
-- Código organizado em métodos e widgets separados
+- Visualização das tarefas do dia.
+- Marcação de tarefas como concluídas.
+- Indicador de tarefas concluídas.
+- Inclusão de novas tarefas por meio de botão.
+- Interface organizada e responsiva.
 
 ## Estrutura
-
-```text
-tarefas_domesticas/
-├── lib/
-│   └── main.dart
-├── pubspec.yaml
-└── README.md
-```
-
-
+Este repositório possui a estrutura de um projeto Flutter, incluindo as pastas das plataformas Android, iOS, Web, Linux, macOS e Windows.

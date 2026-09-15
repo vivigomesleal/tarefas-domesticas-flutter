@@ -1,0 +1,8 @@
+{
+  "name": "Tarefas Domésticas",
+  "short_name": "Tarefas",
+  "start_url": ".",
+  "display": "standalone",
+  "description": "Organização de tarefas domésticas",
+  "orientation": "portrait"
+}

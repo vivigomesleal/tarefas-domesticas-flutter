@@ -190,9 +190,7 @@ class _TelaPrincipalState extends State<TelaPrincipal> {
                     tarefas.isEmpty
                         ? 'Nenhuma tarefa cadastrada.'
                         : 'Você concluiu ${(percentual * 100).round()}% das tarefas.',
-                    style: TextStyle(
-                      color: Colors.grey.shade700,
-                    ),
+                    style: TextStyle(color: Colors.grey.shade700),
                   ),
                 ],
               ),
@@ -244,10 +242,7 @@ class _TelaPrincipalState extends State<TelaPrincipal> {
           SizedBox(height: 12),
           Text(
             'Tudo em ordem!',
-            style: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-            ),
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 5),
           Text('Adicione uma tarefa para começar.'),
